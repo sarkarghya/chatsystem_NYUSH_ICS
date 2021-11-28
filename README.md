@@ -1,4 +1,4 @@
-# :smiling_face_with_three_hearts: Chatbot :smiling_face_with_three_hearts:
+# :smiling_face_with_three_hearts: Chat System :smiling_face_with_three_hearts:
 
 This project is created as a part of Fall 2021 ICS (Introduction to Computer Science) Curriculum @NYU Shanghai
 
