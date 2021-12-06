@@ -5,6 +5,7 @@ Created on Sat Jul  5 11:38:58 2014
 @author: zzhang
 """
 import pickle
+import string
 
 class Index:
     def __init__(self, name):
@@ -33,20 +34,47 @@ class Index:
         self.indexing(m, line_at)
  
     def indexing(self, m, l):
-        words = m.split()
-        self.total_words += len(words)
-        for wd in words:
-            if wd not in self.index:
-                self.index[wd] = [l,]
+        """
+        updates self.total_words and self.index
+        m: message, l: current line number
+        """
+        for word in m.split():
+            #Avoid if the word is the roman number
+            if not (word[-1] == '.' and word[-2].isupper()):
+                word = word.strip(string.punctuation) #else remove puncs
+            if word not in self.index:
+                self.index[word] = [l,]
+                # Increment total_words when the word was not in dictionary
+                self.total_words += 1 
             else:
-                self.index[wd].append(l)
-                                     
+                self.index[word].append(l)
+    '''
+    def indexing(self, m, l):
+        """
+        updates self.total_words and self.index
+        m: message, l: current line number
+        """
+        for word in m.split():
+            #Avoid if the word is the roman number
+            if not (word[-1] == '.' and word[-2].isupper()):
+                word = word.strip(string.punctuation) #else remove puncs
+            self.total_words += 1 
+            self.index.setdefault(word, []).append(l)
+    '''
+    # implement: query interface
+
+#    def search(self, term):
+#        msgs = [(ln, m) for ln, m in self.index.items() if term in m]
+#        return msgs
+                                    
     def search(self, term):
         msgs = []
-        if (term in self.index.keys()):
-            indices = self.index[term]
-            msgs = [(i, self.msgs[i]) for i in indices]
-        return msgs
+        terms = term.split()
+        if terms[0] in self.index:
+            t_msgs = set((i, self.msgs[i].rstrip('\n')) for i in self.index[terms[0]])
+            msgs.extend([x for x in t_msgs if term in x[1]])
+        return sorted(msgs, key=lambda x: x[0])
+
 
 class PIndex(Index):
     def __init__(self, name):

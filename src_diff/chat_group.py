@@ -113,6 +113,15 @@ class Group:
                         my_list.append(member)
         return my_list
 
+    def loners(self):
+        return sum([1 for v in self.chat_grps.values() if len(v) == 1])
+
+    def biggest_group(self):
+        return self.chat_grps[max(self.chat_grps, key = lambda x: len(self.chat_grps[x]))]
+
+    def two_mem_grps(self):
+        return [x for x in self.chat_grps.values() if len(x) == 2]
+
 if __name__ == "__main__":
     g = Group()
     g.join('a')
