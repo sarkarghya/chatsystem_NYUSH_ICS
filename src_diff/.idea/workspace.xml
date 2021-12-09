@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2de04b36-3e79-4dab-bf5d-447ba44bda0a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/chat.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1btHs0bLPJccaLbKa94jbX1NovI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.chat">
+    <configuration name="Plane" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ics_final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game/Plane.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chat" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="ics_final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Plane" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2de04b36-3e79-4dab-bf5d-447ba44bda0a" name="Default Changelist" comment="" />
+      <created>1589444672568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589444672568</updated>
+      <workItem from="1620472800240" duration="23987000" />
+      <workItem from="1620624836411" duration="3997000" />
+      <workItem from="1620630006858" duration="664000" />
+      <workItem from="1620631320585" duration="538000" />
+      <workItem from="1620646052263" duration="1972000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="302" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620631684763">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state x="302" y="239" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.814@0.25.1440.814" timestamp="1620631684763" />
+    <state width="1139" height="170" key="GridCell.Tab.0.bottom" timestamp="1620617236320">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state width="1139" height="170" key="GridCell.Tab.0.bottom/0.25.1440.814@0.25.1440.814" timestamp="1620617236320" />
+    <state width="1139" height="170" key="GridCell.Tab.0.center" timestamp="1620617236318">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state width="1139" height="170" key="GridCell.Tab.0.center/0.25.1440.814@0.25.1440.814" timestamp="1620617236318" />
+    <state width="1139" height="170" key="GridCell.Tab.0.left" timestamp="1620617236317">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state width="1139" height="170" key="GridCell.Tab.0.left/0.25.1440.814@0.25.1440.814" timestamp="1620617236317" />
+    <state width="1139" height="170" key="GridCell.Tab.0.right" timestamp="1620617236319">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state width="1139" height="170" key="GridCell.Tab.0.right/0.25.1440.814@0.25.1440.814" timestamp="1620617236319" />
+    <state x="161" y="68" key="SettingsEditor" timestamp="1620472823971">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state x="161" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1620472823971" />
+    <state x="341" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1620646059165">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state x="341" y="261" key="com.intellij.ide.util.TipDialog/0.25.1440.814@0.25.1440.814" timestamp="1620646059165" />
+    <state x="326" y="202" width="636" height="472" key="find.popup" timestamp="1620629828566">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state x="326" y="196" width="636" height="472" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1620565498767" />
+    <state x="326" y="202" width="636" height="472" key="find.popup/0.25.1440.814@0.25.1440.814" timestamp="1620629828566" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ics_final$Plane.coverage" NAME="Plane Coverage Results" MODIFIED="1620569702772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Game" />
+    <SUITE FILE_PATH="coverage/ics_final$chat.coverage" NAME="chat Coverage Results" MODIFIED="1620575710547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
